@@ -29,7 +29,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 <body>
     <div class="container">
         <div class="center">
-            <h2>Yeni Not Ekle</h2>
+            <h2>Yeni Kayıt Ekle</h2>
 
             <form method="post" class="form">
                 <label>Adı:</label><br>
