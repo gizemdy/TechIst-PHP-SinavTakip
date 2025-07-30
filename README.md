@@ -1,4 +1,5 @@
 Tech Istanbul PHP eğitimi kapsamında hazırladığım sınav sonucları takip sistemi sunulmuştur. 
+github linki : https://github.com/gizemdy/TechIst-PHP-SinavTakip
 
 *** Kullanılan teknolojiler HTML, PHP, CSS, MySQL. (sql dosyası klasöre yüklenmiştir, mysqlde içe aktar yaparak kullanılabilir.)
 
