@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  background: url('bg3.png');
+  background-size: cover;
+  height: 150vh;
+}
+
+.container {
+  padding: 40px 20px;
+}
+
+.navbar {
+  width: 100%;
+  height: 80px;
+  background: rgba(192, 192, 192, 0.9);
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 20px;
+}
+
+.navbar ul {
+  display: flex;
+  list-style: none;
+  gap: 16px;
+}
+
+.navbar ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  padding: 6px 13px;
+  border-radius: 16px;
+  transition: background 0.3s;
+}
+
+.navbar ul li a:hover {
+  background-color: orange;
+}
+
+.center {
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.85);
+  padding: 30px;
+  border-radius: 20px;
+}
+
+.center h2 {
+  color: pink;
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.center h3 {
+  color: orange;
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+ul {
+  margin-top: 20px;
+  padding-left: 0;
+}
+
+li {
+  background: #f9f9f9;
+  margin-bottom: 15px;
+  padding: 15px;
+  list-style: none;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+li strong {
+  display: block;
+  margin-top: 5px;
+  color: #333;
+}
+
+.buttons {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.buttons button,
+.buttons a button {
+  height: 50px;
+  width: 160px;
+  font-size: 16px;
+  font-weight: bold;
+  border: 2px solid pink;
+  background-color: white;
+  cursor: pointer;
+  transition: background 0.3s;
+  border-radius: 8px;
+}
+
+.buttons button:hover {
+  background-color: pink;
+}
+
+.buttons a {
+  text-decoration: none;
+}
