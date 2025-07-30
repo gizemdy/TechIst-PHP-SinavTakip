@@ -2,7 +2,7 @@ Tech Istanbul PHP eğitimi kapsamında hazırladığım sınav sonucları takip 
 
 *** Kullanılan teknolojiler HTML, PHP, CSS, MySQL. (sql dosyası klasöre yüklenmiştir, mysqlde içe aktar yaparak kullanılabilir.)
 
-*** Kullanıcının önceden girmiş olduğu notlar anasayfada (index.php) a-z olarak listelenmektedir. Liste sqlden otomatik çekilmektedir. HTML ve CSS ile görsellik katılmıştır.
+*** Kullanıcının önceden girmiş olduğu notlar anasayfada (index.php) a-z olarak listelenmektedir. Liste veritabanından otomatik çekilmektedir. HTML ve CSS ile görsellik katılmıştır.
 
 *** Listede yer alan her kayıt için düzenle ve sil seçeneği koyulmuştur. Düzenle tıklandığında düzenle.php sayfasına, sil tıklandığında sil.php sayfasına yönlendirir. Bu 
   sayfalarda bilgiler veritabanından çekilir. Gerekli düzenlemeler sonrası kaydet veya iptal butonuyla veritabanına gönderir.
